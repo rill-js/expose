@@ -1,0 +1,32 @@
+{
+  "name": "@rill/expose",
+  "description": "Expose each request on the window for easier debugging with Rill.",
+  "version": "1.0.0",
+  "author": "Dylan Piercey <pierceydylan@gmail.com>",
+  "bugs": "https://github.com/rill-js/expose/issues",
+  "devDependencies": {
+    "snazzy": "^7.0.0",
+    "standard": "^10.0.2"
+  },
+  "homepage": "https://github.com/rill-js/expose",
+  "keywords": [
+    "isomorphic",
+    "debug",
+    "global",
+    "window",
+    "context",
+    "expose",
+    "rill",
+    "universal",
+    "request"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rill-js/expose"
+  },
+  "scripts": {
+    "test": "standard --verbose | snazzy"
+  }
+}
